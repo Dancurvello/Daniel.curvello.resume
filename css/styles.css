@@ -499,47 +499,71 @@ img {
   background-color: var(--first-color);
 }
 
-.skills-container .skills-html {
+.skills-container .skills-javascript {
   width: 90%;
 }
 
-.skills-container .skills-css {
+.skills-container .skills-reactjs {
   width: 90%;
 }
 
-.skills-container .skills-js {
+.skills-container .skills-angular {
   width: 80%;
 }
 
-.skills-container .skills-react {
+.skills-container .skills-typescript {
   width: 80%;
 }
 
-.skills-container .skills-php {
-  width: 80%;
-}
-
-.skills-container .skills-node {
-  width: 70%;
-}
-
-.skills-container .skills-firebase {
+.skills-container .skills-java {
   width: 90%;
 }
 
 .skills-container .skills-python {
-  width: 55%;
+  width: 80%;
 }
 
-.skills-container .skills-figma {
-  width: 90%;
+.skills-container .skills-nodejs {
+  width: 75%;
 }
 
-.skills-container .skills-sketch {
+.skills-container .skills-docker {
   width: 85%;
 }
 
-.skills-container .skills-ps {
+.skills-container .skills-git {
+  width: 95%;
+}
+
+.skills-container .skills-api {
+  width: 85%;
+}
+
+.skills-container .skills-cloud {
+  width: 85%;
+}
+
+.skills-container .skills-microservices {
+  width: 75%;
+}
+
+.skills-container .skills-unittesting {
+  width: 70%;
+}
+
+.skills-container .skills-sql {
+  width: 95%;
+}
+
+.skills-container .skills-mysql {
+  width: 90%;
+}
+
+.skills-container .skills-postgresql {
+  width: 85%;
+}
+
+.skills-container .skills-oracle {
   width: 85%;
 }
 
@@ -800,7 +824,7 @@ img {
 }
 
 .project-bg-img {
-  width: 232px;
+  width: 260px;
   justify-self: center;
 }
 
@@ -1237,7 +1261,7 @@ img {
   .project .project-container {
     background-color: var(--first-color-second);
     border-radius: 1rem;
-    padding: 3rem 2.5rem 0;
+    padding: 3rem 2.5rem 3rem;
     grid-template-columns: 1fr max-content;
     column-gap: 3rem;
   }
