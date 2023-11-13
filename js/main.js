@@ -194,3 +194,12 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+
+/* Open Email */
+
+function openMailTo() {
+  window.open('mailto:curvellodaniel@gmail.com');
+}
+
+document.getElementById('sendMessageButton').addEventListener('click', openMailTo);
